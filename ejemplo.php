@@ -15,3 +15,29 @@ if($isai >= $jose){
 }else{
     echo"jose es mayor";
     }?>
+<br>
+    <?php
+    $estudiantes = array ("studiante1","estudiante2","estudiante3","estudiante4","estudiante5","estudiante6","estudiante7","estudiante8","estudiante9","estudiante10");
+ 
+    for($i =0; $i < count($estudiantes); $i++){
+        echo " ".$estudiantes[$i]." ";
+
+    }
+    ?>
+    <br>
+<?php
+$frutas =array("melon","sandia","uvas",);
+$compradores = array("juan","fer","ling ling");
+
+    function asignarCompradores($compradores, $frutas){
+        foreach ($compradores as $comprador){
+            foreach ($frutas as $fruta){
+                echo $comprador." compro ".$fruta."<br>";
+                
+       }   
+    }
+}
+
+\asignarCompradores($compradores, $frutas);
+
+?>
