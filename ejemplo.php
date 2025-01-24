@@ -38,6 +38,7 @@ $compradores = array("juan","fer","ling ling");
     }
 }
 
-\asignarCompradores($compradores, $frutas);
+asignarCompradores($compradores, $frutas);
 
 ?>
+
